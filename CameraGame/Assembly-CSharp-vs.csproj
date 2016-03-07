@@ -105,6 +105,7 @@
      <Compile Include="Assets\Assets\ToWalker.cs" />
      <Compile Include="Assets\Assets\WalkerMover.cs" />
      <Compile Include="Assets\Assets\xyObject.cs" />
+     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
