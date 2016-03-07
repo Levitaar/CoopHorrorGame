@@ -48,13 +48,18 @@
   <ItemGroup>
      <Compile Include="Assets\Assets2\BallPlayer.cs" />
      <Compile Include="Assets\Assets2\CameraFollow.cs" />
+     <Compile Include="Assets\HashIDs.cs" />
+     <Compile Include="Assets\LastPlayerSighting.cs" />
      <Compile Include="Assets\NetworkSpawn.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\PlayerMov.cs" />
+     <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\PrefabSelector.cs" />
+     <Compile Include="Assets\Tags.cs" />
      <Compile Include="Assets\ToSelectScene.cs" />
      <Compile Include="Assets\ToWalker.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.Analytics">
