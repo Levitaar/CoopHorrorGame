@@ -48,7 +48,9 @@
      <Compile Include="Assets\Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
      <None Include="Assets\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Library\CrashedAssetImports.txt" />
      <None Include="Assets\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Library\LibraryFormatVersion.txt" />
      <None Include="Assets\Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEditor.Advertisements">
@@ -80,6 +82,15 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-CSharp">
+ <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-CSharp-firstpass">
+ <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-CSharp-Editor">
+ <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
