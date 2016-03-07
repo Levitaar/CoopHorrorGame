@@ -17,17 +17,6 @@ public class NetworkSpawn : NetworkManager {
 
 		base.OnServerConnect (conn);
 
-		if (Network.isServer) {
-
-
-
-		}
-
-		if (Network.isClient) {
-
-
-
-		}
 
 
 	}

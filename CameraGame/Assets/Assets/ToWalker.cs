@@ -21,7 +21,7 @@ public class ToWalker : MonoBehaviour {
 
 		if (walker == true) {
 
-			Application.LoadLevel ("Walker_Scene1");
+		
 
 		}
 

@@ -10,6 +10,6 @@ public class ToSelectScene : MonoBehaviour {
 
 	void Update () {
 	
-		Application.LoadLevel (1);
+	
 	}
 }

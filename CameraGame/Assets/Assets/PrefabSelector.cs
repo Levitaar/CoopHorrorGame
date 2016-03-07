@@ -8,15 +8,7 @@ public class PrefabSelector : NetworkManager {
 
 		print ("player connected");
 
-		if (Network.isClient) {
-
-			print ("Player is Client");
-
-		} else if (Network.isServer) {
-
-			print ("Player is Server");
-
-		}
+	
 
 	}
 

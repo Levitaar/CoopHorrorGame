@@ -22,7 +22,9 @@ public class Network : MonoBehaviour {
 	public bool isLoaded(){
 		return loaded;
 	}
-
+	public void reload(){
+		loaded = false;
+	}
 	private IEnumerator Load(WWW www)
 	{
 		yield return www;
