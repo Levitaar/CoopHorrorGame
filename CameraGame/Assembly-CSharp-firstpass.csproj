@@ -5,7 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{2C0B83B2-5541-3062-548D-E68FD9313FC8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,31 +46,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Library\CrashedAssetImports.txt" />
-     <None Include="Assets\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Library\LibraryFormatVersion.txt" />
-     <None Include="Assets\Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
- <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-CSharp">
- <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-CSharp-Editor">
- <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll</HintPath>
- </Reference>
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Library\CrashedAssetImports.txt" />
+    <None Include="Assets\Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Library\LibraryFormatVersion.txt" />
+    <None Include="Assets\Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-Editor">
+      <HintPath>/Users/LGHUIZA/CoopHorrorGame/CameraGame/Assets/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -79,5 +77,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
