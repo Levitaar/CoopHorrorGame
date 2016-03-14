@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{40929AF0-E888-5DB8-7570-A50584D3A2F3}") = "CamGame", "Assembly-CSharp-firstpass.csproj", "{1D9B0BA7-37BA-96E7-9A5F-6A9921131F54}"
+EndProject
+Project("{40929AF0-E888-5DB8-7570-A50584D3A2F3}") = "CamGame", "Assembly-CSharp.csproj", "{F6136282-703A-CCAC-7801-8B3A56C3AF21}"
+EndProject
+Project("{40929AF0-E888-5DB8-7570-A50584D3A2F3}") = "CamGame", "Assembly-CSharp-Editor.csproj", "{9FD12291-E9B0-7CC6-0DFA-AECA1F6D9FE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9B0BA7-37BA-96E7-9A5F-6A9921131F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9B0BA7-37BA-96E7-9A5F-6A9921131F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9B0BA7-37BA-96E7-9A5F-6A9921131F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9B0BA7-37BA-96E7-9A5F-6A9921131F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6136282-703A-CCAC-7801-8B3A56C3AF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6136282-703A-CCAC-7801-8B3A56C3AF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6136282-703A-CCAC-7801-8B3A56C3AF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6136282-703A-CCAC-7801-8B3A56C3AF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD12291-E9B0-7CC6-0DFA-AECA1F6D9FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD12291-E9B0-7CC6-0DFA-AECA1F6D9FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD12291-E9B0-7CC6-0DFA-AECA1F6D9FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD12291-E9B0-7CC6-0DFA-AECA1F6D9FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
