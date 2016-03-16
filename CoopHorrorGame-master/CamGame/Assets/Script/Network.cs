@@ -21,6 +21,7 @@ public class Network : MonoBehaviour {
 		StartCoroutine(Request(new WWW(URL+"?x="+x+"&y="+y+"&z="+z+"&r="+r)));
 	}
 	public void NetworkSendDeath(bool isDead){
+		print (isDead);
 		if (isDead) {
 			StartCoroutine (Request (new WWW (URL + "?x=0&y=0&r=0&d=1")));
 		} else {
@@ -54,7 +55,7 @@ public class Network : MonoBehaviour {
 			if (isDead == "1") {
 				UnityEngine.Application.Quit ();
 			}
-			print (isDead);
+
 			r=float.Parse(myXY.r);
 		} else {
 			Debug.Log("WWW Error: "+ www.error);
