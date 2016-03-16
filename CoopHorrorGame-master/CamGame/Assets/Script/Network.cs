@@ -57,10 +57,6 @@ public class Network : MonoBehaviour {
 			if (isDead == "1") {
 				UnityEngine.Application.Quit ();
 			}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 			r=float.Parse(myXY.r);
 		} else {
 			Debug.Log("WWW Error: "+ www.error);
