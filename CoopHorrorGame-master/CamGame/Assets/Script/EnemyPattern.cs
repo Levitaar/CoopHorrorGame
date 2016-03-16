@@ -34,7 +34,7 @@ public class EnemyPattern : MonoBehaviour {
 		if (InSight == true) {
 			lerping = false;
 
-			print ("I SEE DEAD PEOPLE");
+			//print ("I SEE DEAD PEOPLE");
 
 			transform.position = Vector3.MoveTowards (transform.position, GameObject.Find ("nethub").GetComponent<Network> ().getXYZ(), Time.deltaTime * chaseSpeed);
 			transform.LookAt (player.transform.position);
