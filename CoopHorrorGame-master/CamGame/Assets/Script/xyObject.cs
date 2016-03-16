@@ -8,6 +8,7 @@ namespace Application
 		public string x;
 		public string r;
 		public string z;
+		public string d;
 
 		public xyObject ()
 		{
