@@ -13,6 +13,6 @@ public class sender : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		networkhub.NetworkSend (transform.position.x, transform.position.z);
+		networkhub.NetworkSend (transform.position.x, transform.position.y,transform.position.z,transform.rotation.y);
 	}
 }
