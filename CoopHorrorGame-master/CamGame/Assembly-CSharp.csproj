@@ -45,8 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EnemyPattern.cs" />
      <Compile Include="Assets\Script\CameraChange.cs" />
+     <Compile Include="Assets\Script\EnemyPattern.cs" />
      <Compile Include="Assets\Script\HashIDs.cs" />
      <Compile Include="Assets\Script\LastPlayerSighting.cs" />
      <Compile Include="Assets\Script\Network.cs" />
@@ -64,7 +64,6 @@
      <Compile Include="Assets\Script\netmove.cs" />
      <Compile Include="Assets\Script\sender.cs" />
      <Compile Include="Assets\Script\xyObject.cs" />
-     <Compile Include="Assets\lerpyMover.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
