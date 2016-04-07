@@ -12,7 +12,15 @@ public class sender : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
-		networkhub.NetworkSend (transform.position.x, transform.position.z);
+		if (networkhub.isLoaded ()) {
+			networkhub.reload ();
+		} else {
+			networkhub.NetworkLoad ();
+		}
+		if (networkhub.isDead=="1") {
+			print ("Game Over");
+			UnityEngine.Application.Quit ();
+		}
+		networkhub.NetworkSend (transform.position.x, transform.position.y,transform.position.z,transform.rotation.y);
 	}
 }

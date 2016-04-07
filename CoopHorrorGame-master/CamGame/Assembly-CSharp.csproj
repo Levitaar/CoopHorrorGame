@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EnemyBody.cs" />
      <Compile Include="Assets\Script\CameraChange.cs" />
      <Compile Include="Assets\Script\EnemyPattern.cs" />
      <Compile Include="Assets\Script\HashIDs.cs" />

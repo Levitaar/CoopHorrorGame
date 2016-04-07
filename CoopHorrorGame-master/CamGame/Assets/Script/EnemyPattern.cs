@@ -34,25 +34,25 @@ public class EnemyPattern : MonoBehaviour {
 		if (InSight == true) {
 			lerping = false;
 
-			print ("I SEE DEAD PEOPLE");
+			//print ("I SEE DEAD PEOPLE");
 
-			transform.position = Vector3.MoveTowards (transform.position, player.transform.position, Time.deltaTime * chaseSpeed);
+			transform.position = Vector3.MoveTowards (transform.position, GameObject.Find ("nethub").GetComponent<Network> ().getXYZ(), Time.deltaTime * chaseSpeed);
 			transform.LookAt (player.transform.position);
 
 		} 
 
 		if (InSight == false) {
 
-			print ("CANT SEE");
+		
 
 			if (transform.position == startpoint) {
-				print ("TO END POINT");
+
 				ToA = true;
 
 			}
 
 			if (transform.position == endpoint) {
-				print ("TO START POINT");
+	
 				ToA = false;
 
 			}
@@ -71,7 +71,7 @@ public class EnemyPattern : MonoBehaviour {
 
 	void OnTriggerStay(Collider other) {
 
-		if (other.gameObject.name == "TestDummy") {
+		if (other.gameObject.name == "PlayerCam") {
 
 			InSight = true;
 
@@ -81,7 +81,7 @@ public class EnemyPattern : MonoBehaviour {
 
 	void OnTriggerExit(Collider other) {
 
-		if (other.gameObject.name == "TestDummy") {
+		if (other.gameObject.name == "PlayerCam") {
 
 			InSight = false;
 
